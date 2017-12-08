@@ -1,7 +1,8 @@
 //++
 // LogFile.hpp -> UPE Library log file driver class
 //
-//       COPYRIGHT (C) 2017 BY THE LIVING COMPUTER MUSEUM, SEATTLE WA.
+//       COPYRIGHT (C) 2015-2017 Vulcan Inc.
+//       Developed by Living Computers: Museum+Labs
 //
 // LICENSE:
 //    This file is part of the UPE LIBRARY project.  UPELIB is free software;
