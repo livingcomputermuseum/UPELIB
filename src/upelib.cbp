@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="upelib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/upelib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/upelib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add option="-DPLX_LINUX" />
+			<Add option="-DPLX_64BIT" />
+			<Add option="-DPLX_LITTLE_ENDIAN" />
+			<Add directory="/usr/local/PlxSdk/Include" />
+		</Compiler>
+		<Unit filename="BitStream.cpp" />
+		<Unit filename="BitStream.hpp" />
+		<Unit filename="CheckpointFiles.cpp" />
+		<Unit filename="CheckpointFiles.hpp" />
+		<Unit filename="CircularBuffer.hpp" />
+		<Unit filename="CommandLine.cpp" />
+		<Unit filename="CommandLine.hpp" />
+		<Unit filename="CommandParser.cpp" />
+		<Unit filename="CommandParser.hpp" />
+		<Unit filename="ConsoleWindow.hpp" />
+		<Unit filename="ImageFile.cpp" />
+		<Unit filename="ImageFile.hpp" />
+		<Unit filename="LinuxConsole.cpp" />
+		<Unit filename="LogFile.cpp" />
+		<Unit filename="LogFile.hpp" />
+		<Unit filename="MESA.h" />
+		<Unit filename="MessageQueue.cpp" />
+		<Unit filename="MessageQueue.hpp" />
+		<Unit filename="Mutex.cpp" />
+		<Unit filename="Mutex.hpp" />
+		<Unit filename="SafeCRT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SafeCRT.h" />
+		<Unit filename="StandardUI.cpp" />
+		<Unit filename="StandardUI.hpp" />
+		<Unit filename="Thread.cpp" />
+		<Unit filename="Thread.hpp" />
+		<Unit filename="UPE.cpp" />
+		<Unit filename="UPE.hpp" />
+		<Unit filename="UPELIB.cpp" />
+		<Unit filename="UPELIB.hpp" />
+		<Unit filename="WindowsConsole.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
